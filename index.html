@@ -1,0 +1,988 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Hotlynx</title>
+  <meta name="description" content="Hotlynx">
+  <meta name="author" content="John van Arkelen">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <header class="bg-green-800">
+    <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:divide-y lg:divide-gray-700 lg:px-8">
+      <div class="relative h-16 flex justify-center">
+        <div class="ml-5 mt-5 text-white font-bold text-2xl hidden md:inline">
+          <a class="text-white hover:underline" href="/">Hotlynx</a>
+        </div>
+      </div>
+    </div>
+    <div class="h-32"></div>
+  </header>
+
+
+  <main class="-mt-28">
+    <div class="max-w-8xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-lg shadow px-5 pt-6 pb-12 sm:px-6">
+        <div class="mt-5">
+          <h2 class="text-gray-800 text-base font-medium uppercase tracking-wide">personal</h2>
+        
+          <ul class="my-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://my.1password.com/home" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">1Password</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://www.icloud.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Apple iCloud</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://smallpdf.com/edit-pdf" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Edit PDF</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://www.evernote.com/client/web" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Evernote</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://www.fastmail.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Fastmail</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://feedly.com/i/my" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Feedly</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://hashnode.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Hashnode</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://www.icscards.nl" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">ICS</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://leanpub.com/user_dashboard/library" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Leanpub</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://linear.app/salves" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Linear</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://www.linkedin.com/feed" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">LinkedIn</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://ruby.social" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Mastodon ruby.social</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://mstdn.social/home" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Mastodon mstdn.social</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://nx18736.your-storageshare.de" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Nextcloud</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://www.notion.so/Quick-actions-48dd3a0f1adb44ada335debc1badf6c3" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Notion</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://subscription.packtpub.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Packt Library</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://www.polywork.com/jarkelen" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Polywork</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://speed.cloudflare.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Speedtest</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://reader.substack.com/inbox" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Substack Reader</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://tryhackme.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">TryHackMe</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-blue-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-blue-600 bg-white rounded-r-md truncate shadow hover:bg-blue-100">
+                <a href="https://web.whatsapp.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Whatsapp</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+           
+          </ul>
+
+          <h2 class="text-gray-800 text-base font-medium uppercase tracking-wide">backbone v2</h2>
+
+          <ul class="my-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://appsignal.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">AppSignal</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://3.basecamp.com/5465805/projects" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Basecamp</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://app.cloud66.com/dashboard" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Cloud 66</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://dash.cloudflare.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Cloudflare</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://www.crunchybridge.com/dashboard" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Crunchy Bridge DB</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://depfu.com/orgs/github/SalvesTestservices" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Depfu</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://account.docusign.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Docusign</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://github.com/SalvesTestservices?tab=repositories" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Github Salves</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://secure.helpscout.net/mailbox/d1237aad3a994fc8/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">HelpScout</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://accounts.hetzner.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Hetzner Cloud</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://logtail.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Logtail</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://mailtrap.io/inboxes/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Mailtrap</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://ap.www.namecheap.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Namecheap</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://account.postmarkapp.com/servers" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Postmark</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://console.twilio.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Twilio</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <h2 class="text-gray-800 text-base font-medium uppercase tracking-wide">salves</h2>
+
+          <ul class="my-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://s3.console.aws.amazon.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Amazon S3</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://app.archbee.io" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Archbee Docs</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://portal.azure.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Azure</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://www.adoptifypersoneel.nl" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Backbone Adoptify</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://www.salvesbackbone.nl" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Backbone Salves</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://backupsheep.com/console/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">BackupSheep</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://vault.bitwarden.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Bitwarden</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://ww19.autotask.net/ClientPortalMvc/SiteNavigation/Landing/Default?fromLogin=1" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Cubics Portal</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://classic.hatchbox.io/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Hatchbox (classic)</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://app.hatchbox.io/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Hatchbox (v2)</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://lastpass.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Lastpass</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://outlook.office365.com/owa" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Outlook</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://www.qualitymonitor.nl" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Quality Monitor</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://www.salvesconnect.nl" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Salves Connect</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://salves365.sharepoint.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Salves Sharepoint</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-red-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-red-600 bg-white rounded-r-md truncate shadow hover:bg-red-100">
+                <a href="https://wormhole.app" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Wormhole</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+          
+          <h2 class="text-gray-800 text-base font-medium uppercase tracking-wide">ruby and rails</h2>
+
+          <ul class="my-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://ruby.libhunt.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Awesome Ruby</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://gorails.com/dashboard" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">GoRails</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://www.hotrails.dev/turbo-rails" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Hotrails</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://discuss.hotwired.dev" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Hotwire Discussions</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://jumpstartrails.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Jumpstart Pro</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://www.postgresqltutorial.com/postgresql-administration" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Postgresql Tutorial</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://pragmaticstudio.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Pragmatic Studio</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://discuss.rubyonrails.org" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Rails Discussions</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+           <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://railsbytes.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Railsbytes</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://rubygems.org" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Rubygems</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-indigo-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-indigo-600 bg-white rounded-r-md truncate shadow hover:bg-indigo-100">
+                <a href="https://audit.fastruby.io" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Security audit</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <h2 class="text-gray-800 text-base font-medium uppercase tracking-wide">development</h2>
+         
+          <ul class="my-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://chat.openai.com/chat" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">ChatGPT</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://app.diagrams.net/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Draw Diagrams</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://excalidraw.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Excalidraw</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://github.com/jarkelen?tab=repositories" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Github</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://www.color-hex.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">HEX Color Codes</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="http://html2haml.herokuapp.com/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">HTML2HAML</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://linear.app/salves" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Linear</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://app.netlify.com/teams/jarkelen/overview" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Netlify</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://stackoverflow.com/users/481554/john" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Stack Overflow</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://swimlanes.io" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Swimlanes Sequence Diagrams</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://tablericons.com" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Tabler Icons</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://tailwindcss.com/docs" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Tailwind CSS</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://tailwindui.com/components" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Tailwind UI</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+              <div class="bg-purple-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+              <div class="flex-1 flex items-center justify-between border-t border-r border-b border-purple-600 bg-white rounded-r-md truncate shadow hover:bg-purple-100">
+                <a href="https://tailwind-to-css.vercel.app/" target="blank">
+                  <div class="flex-1 px-4 py-2 text-sm truncate">
+                    <div class="text-gray-900 font-medium hover:text-gray-600">Tailwind to CSS</div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <h2 class="text-gray-800 text-base font-medium uppercase tracking-wide">news</h2>
+
+          <ul class="my-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-yellow-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-yellow-600 bg-white rounded-r-md truncate shadow hover:bg-yellow-100">
+                  <a href="https://www.ad.nl" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Algemeen Dagblad</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-yellow-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-yellow-600 bg-white rounded-r-md truncate shadow hover:bg-yellow-100">
+                  <a href="https://www.gelderlander.nl/maas-en-waal" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">De Gelderlander</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-yellow-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-yellow-600 bg-white rounded-r-md truncate shadow hover:bg-yellow-100">
+                  <a href="https://www.volkskrant.nl" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">De Volkskrant</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-yellow-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-yellow-600 bg-white rounded-r-md truncate shadow hover:bg-yellow-100">
+                  <a href="https://www.theverge.com/" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">The Verge</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-yellow-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-yellow-600 bg-white rounded-r-md truncate shadow hover:bg-yellow-100">
+                  <a href="https://dev.to/" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Dev.to</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-yellow-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-yellow-600 bg-white rounded-r-md truncate shadow hover:bg-yellow-100">
+                  <a href="https://news.ycombinator.com" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Hacker News</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-yellow-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-yellow-600 bg-white rounded-r-md truncate shadow hover:bg-yellow-100">
+                  <a href="https://www.washingtonpost.com" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">The Washington Post</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+  
+            <h2 class="text-gray-800 text-base font-medium uppercase tracking-wide">miscellaneous</h2>
+
+            <ul class="my-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-gray-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-600 bg-white rounded-r-md truncate shadow">
+                  <a href="https://www.yr.no/en/forecast/daily-table/2-2755476/Netherlands/Zeeland/Gemeente%20Goes/Goes" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Het Weer in Goes</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-gray-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-600 bg-white rounded-r-md truncate shadow hover:bg-gray-100">
+                  <a href="https://nl.pcpartpicker.com" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">PC Part Picker</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-gray-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-600 bg-white rounded-r-md truncate shadow hover:bg-gray-100">
+                  <a href="https://nederlandseradio.nl" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Radio</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-gray-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-600 bg-white rounded-r-md truncate shadow hover:bg-gray-100">
+                  <a href="https://tweakers.net" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Tweakers</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+             </ul>
+  
+             <h2 class="text-gray-800 text-base font-medium uppercase tracking-wide">football</h2>
+
+             <ul class="my-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-green-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-green-600 bg-white rounded-r-md truncate shadow hover:bg-green-100">
+                  <a href="https://footballgroundguide.com" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Football Ground Guide</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-green-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-green-600 bg-white rounded-r-md truncate shadow hover:bg-green-100">
+                  <a href="https://www.footballwebpages.co.uk" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Football Web Pages</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="col-span-1 flex shadow-sm rounded-md" id="#{dom_id(link)}">
+                <div class="bg-green-600 flex-shrink-0 flex items-center justify-center w-4 text-white text-sm font-medium rounded-l-md"></div>
+                <div class="flex-1 flex items-center justify-between border-t border-r border-b border-green-600 bg-white rounded-r-md truncate shadow hover:bg-green-100">
+                  <a href="https://footmarks-app.herokuapp.com" target="blank">
+                    <div class="flex-1 px-4 py-2 text-sm truncate">
+                      <div class="text-gray-900 font-medium hover:text-gray-600">Footmarks</div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
